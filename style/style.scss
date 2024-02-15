@@ -1,27 +1,93 @@
-.section_foto{
-  background-color: #837d7d;
- }
- .section{
+.header{
   display: flex;
-  padding: 30px 50px;
- }
+  background-color: white;
+  width: 1440px;
+  height: 91px;
+  position: fixed;
+}
  
- .section_yazi-button{
-  margin: 0px;;
+.header__basliq-kecid{
   padding: 10px;
+  margin: 10px;
+}
+.header__basliq-kecid-ul{
+  display: flex;
+  padding: 10px;
+}
+.header__basliq-kecid-ul-li{
+  padding: 10px;
+}
+.header__basliq-ad{
+  padding: 10px;
+}
+.header__basliq-son-kecid{
+  display: flex;
+}
+.header__basliq-son-kecid-login{
+  padding: 17px;
+   display: inline;
+   font-size: 20px;
+}
+.header__basliq-son-kecid-icon{
+  padding: 39px;
+  display: flex;
+}
+ 
+
+ .section__burger-div{
+  text-align: center;
+ width: 701px;
+ height: 354px;
+ padding: 320px
  }
- .section_yazi-basliq{
-  display: inline;
+ .nav{
+  width: 1440px;
+  height: 631px;
+ }
+ .section__burger{
+  width: 1440px;
+   
+  background-image: url(https://s3-alpha-sig.figma.com/img/58e7/8626/57520fbcc340e0540da6a9164dc64c56?Expires=1708905600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FVkLAfVmx31Qb4rEe~X23C6RaHbAMorYkWUrMMhI-rqvCudi8XFQnGnQJFm2ip5sF7iWZSWqaeyzsDh0ldnJxQC4lzFLMcQJRgOXAOYFHnro3Y~giHyHN013fS9qR-KU2G3ghNc-OXayWtkY8B6RAL8mPPEOi0FxYM0YY4JhaB5fo1E7F0iv-Nbih2Dtbki3Id0ECLvMUutDLr2ORX3gHkeFlItKY806zBJoSHPdPSDo9o-nlP-SUozYj-I07UZmHl5VpDMqubupEAJEM28qR72SRDyTymMNPGEQh-o8mAtHiPq8QHWXdeVafZTEPbT7J0p4m4K3sv9saU1--NNf7A__
+ );
+ background-size: cover;
+  
  }
  .button{
-  color: white;
-  background-color: black;;
+  background-color: rgb(16, 23, 232);
+   border-radius: 9px;
+   color: white;
+  width: 100px;
+  height: 30px;
  }
- .section_yazi{
-  width: 400px;
-  height: 300px;
-  padding: 70px;
+ .burger__h1{
+color: white;
  }
- 
- 
- 
+ .burger__p{
+color: white;
+ }
+ .menular{
+   background-color: white;
+ }
+ .menus{
+  background-color: aquamarine;
+  margin: 90px;
+ }
+ .menu{
+  background-color: aliceblue;
+  display: flex;
+ }
+ .menu__cofe{
+  display: flex;
+  background-color: white;
+   margin: 70px;
+ }
+ .menu__alma{
+  display: flex;
+  background-color: white;
+  margin: 70px;
+ }
+ .menu__et{
+  display: flex;
+  background-color: white;
+  margin: 70px;
+ }
