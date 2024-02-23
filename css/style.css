@@ -1,83 +1,109 @@
 .header {
   width: 100%;
-  height: 40px;
   display: flex;
+  flex-direction: column;
+}
+.header .fixed {
+  width: 100%;
   position: fixed;
+  top: 0;
 }
-.header .header__basliq {
-  width: 33.33%;
+.header .fixed .header__bas {
+  width: 100%;
+  gap: 10px;
   display: flex;
+  background-color: #252B42;
 }
-.header .header__basliq .logo {
-  width: 60px;
-  height: 30px;
-  padding: 18px;
+.header .fixed .header__bas .header__bas-bas {
+  display: flex;
+  width: 33%;
+  gap: 15px;
 }
-.header .header__basliq .name {
-  height: 30px;
-  color: rgb(14, 117, 14);
-}
-.header .header__nav {
-  text-align: center;
-  width: 33.33%;
-  gap: 50px;
-  padding: 28px;
-}
-.header .header__nav .header__nav-button {
-  border-radius: 16px;
-  border: none;
-  transition: all 0.3s ease-in-out;
-}
-.header .header__nav .header__nav-button:hover {
-  background-color: rgb(37, 153, 37);
+.header .fixed .header__bas .header__bas-bas .header__bas-bas-nomre {
+  display: flex;
   color: white;
 }
-.header .header__icon {
-  width: 33.33%;
+.header .fixed .header__bas .header__bas-bas .header__bas-bas-email {
   display: flex;
-  gap: 30px;
-  padding: 28px;
-  text-align: right;
+  color: white;
 }
-
-.div {
+.header .fixed .header__bas .header__bas-orta {
+  color: white;
+  width: 30%;
+  justify-content: end;
+}
+.header .fixed .header__bas .header__bas-son {
+  text-align: right;
+  gap: 10px;
+  color: white;
+  display: flex;
+  width: 30%;
+  justify-content: end;
+}
+.header .fixed .header__nav {
   width: 100%;
-  height: 100px;
+  display: flex;
+  background-color: aqua;
+  text-align: center;
+}
+.header .fixed .header__nav .header__nav-bas {
+  width: 30%;
+  text-align: left;
+}
+.header .fixed .header__nav .header__nav-orta {
+  display: flex;
+  width: 30%;
+  gap: 15px;
+}
+.header .fixed .header__nav .header__nav-son {
+  text-align: right;
+  display: flex;
+  color: rgb(63, 63, 231);
+  width: 30%;
+  gap: 40px;
+  justify-content: end;
+}
+.header .fixed .header__nav .header__nav-son .header__nav-son-sol {
+  display: flex;
+  gap: 10px;
+}
+.header .fixed .header__nav .header__nav-son .header__nav-son-sag {
+  display: flex;
+  gap: 20px;
+}
+.header .header__son {
+  width: 100%;
+  height: 700px;
+  background-image: url(/foto/ilk\ backr\ foto.jpg);
+}
+.header .header__son .header__son-yazi {
+  padding: 200px;
+  color: white;
+}
+.header .header__son .header__son-yazi .button {
+  width: 180px;
+  height: 40px;
+  color: white;
+  background-color: rgb(58, 205, 58);
+  border: none;
+  border-radius: 8px;
 }
 
 .section {
+  background-color: #FAFAFA;
   display: flex;
-  width: 100%;
-  height: 300px;
+  flex-direction: column;
 }
-.section .section__div-sol {
-  width: 100%;
-  height: 200px;
-  padding: 200px;
-  color: white;
-  background-color: black;
-  border-radius: 26px;
-}
-.section .section__div-sag {
-  width: 100%;
-  height: 200px;
-  padding: 200px;
-}
-.section .section__div-sag .section__div-sag-img {
-  width: 100%;
+.section .section__yazi {
   text-align: center;
 }
-
-.section__video {
-  margin: 300px;
+.section .section__foto {
+  display: flex;
+  gap: 10px;
+  padding: 170px;
 }
-.section__video .section__video-tag {
-  padding: 20px;
-}
-
-.section__son {
-  width: 100%;
-}
-.section__son .section__son-logo {
-  width: 100%;
+.section .section__foto .sag-sag {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
 }/*# sourceMappingURL=style.css.map */

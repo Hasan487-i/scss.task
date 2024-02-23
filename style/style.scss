@@ -1,87 +1,118 @@
 .header{
   width: 100%;
-  height: 40px;
   display: flex;
-  position: fixed;
-  .header__basliq{
-    width: 33.33%;
+  flex-direction: column;
+   .fixed{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    
+  .header__bas{
+    width: 100%;
+    gap: 10px;
     display: flex;
-     
-
-    .logo{
-      width: 60px;
-      height: 30px;
-      padding: 18px;
-       
+    background-color: #252B42;
+      
+    .header__bas-bas{
+      display: flex;
+      width: 33%;
+       gap: 15px;
+      .header__bas-bas-nomre{
+        display: flex;
+        color: white;
+      }
+      .header__bas-bas-email{
+        display: flex;
+         color: white;
+      }
     }
-    .name{
-      height: 30px;
-      color: rgb(14, 117, 14);
+    .header__bas-orta{
+      color: white;
+      width: 30%;
+      justify-content: end;
+    }
+    .header__bas-son{
+      text-align: right;
+       gap: 10px;
+       color: white;
+       display: flex;
+       width: 30%;
+       justify-content: end;
     }
   }
   .header__nav{
-     text-align: center;
-     width: 33.33%;
-     gap: 50px;
-     padding: 28px;
-     
-    .header__nav-button{
-     border-radius: 16px;
-     border: none;
-     transition: all 0.3s ease-in-out;
-     
-     &:hover{
-       background-color: rgb(37, 153, 37);
-       color: white;
-     }
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+    text-align: center;
+    .header__nav-bas{
+      width: 30%;
+      text-align: left;
+    }
+    .header__nav-orta{
+      display: flex;
+      width: 30%;
+      gap: 15px;
+    }
+    .header__nav-son{
+      text-align: right;
+      display: flex;
+      color: rgb(63, 63, 231);
+      width: 30%;
+      gap: 40px;
+      justify-content: end;
+      .header__nav-son-sol{
+        display: flex;
+        gap: 10px;
+      }
+      .header__nav-son-sag{
+        display: flex;
+        gap: 20px;
+      }
     }
   }
-  .header__icon{
-    width: 33.33%;
-    display: flex;
-    gap: 30px;
-    padding: 28px;
-    text-align: right;
-     
+   }
+ .header__son{
+   width: 100%;
+  height: 700px;
+  background-image: url(/foto/ilk\ backr\ foto.jpg);
+  .header__son-yazi{
+    padding: 200px;
+    color: white;
+    .button{
+      width: 180px;
+      height: 40px;
+      color: white;
+      background-color: rgb(58, 205, 58);
+      border: none;
+      border-radius: 8px;
+    }
   }
-}  
-.div{
-  width: 100%;
-  height: 100px;
+ }
 }
 .section{
+  background-color: #FAFAFA;
   display: flex;
-  width: 100%;
-  height: 300px;
+  flex-direction: column;
+ 
+  .section__yazi{
+   text-align: center;
+  }
+  .section__foto{
+    display: flex;
+    gap: 10px;
    
-  .section__div-sol{
-  width: 100%;
-  height: 200px;
-  padding: 200px;
-  color: white;
-  background-color: black;
-  border-radius: 26px;
-  }
-  .section__div-sag{
-  width: 100%;
-  height: 200px;
-  padding: 200px;
-   .section__div-sag-img{
-    width: 100%;
-    text-align: center;
-     
-   }
-  }
-}
-.section__video{
-  margin: 300px;
-  .section__video-tag{
-    padding: 20px;
-  }
-}
-.section__son{
-  width: 100%;
-  .section__son-logo{
-    width: 100%;
+    padding: 170px;
+    .sol-oglan{
+        
+    }
+    .sag-qiz{
+       
+    }
+    .sag-sag{
+       display: flex;
+       flex-direction: column;
+       gap: 13px;
+    }
   }
 }
